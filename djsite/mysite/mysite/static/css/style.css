@@ -1,0 +1,42 @@
+body {
+    background: #161e29;
+    margin: 0;
+  }
+
+.card {
+    background-color: #253246; /* Цвет фона всей карточки */
+    border: 1px solid darkgray; /* Цвет рамки */
+    padding: 10px;
+    width: 600px;
+}
+
+.card-header {
+    color: rgb(255, 255, 255); /* Цвет текста в заголовке карточки */
+}
+
+.card-text {
+    color: rgb(255, 255, 255); /* Цвет текста в основном содержании */
+}
+
+.card-created_at {
+    color:rgb(255, 255, 255)
+}
+
+.btn-primary {
+    background-color: navy; /* Цвет фона кнопки */
+    color: white; /* Цвет текста на кнопке */
+    padding: 10px 20px;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+}
+
+.btn-primary:hover {
+    background-color: darkblue; /* Изменение цвета кнопки при наведении курсора */
+}
+
+.card-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); /* Ширина каждой карточки */
+    gap: 10px; /* Отступы между карточками */
+}
